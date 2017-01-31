@@ -3,6 +3,8 @@
 
 echo Hello World!
 
+cp ~/.vimrc ~/vimrc.bak
+
 cp ./vimrc ~/.vimrc
 
 mkdir -p ~/.vim/bundle/YouCompleteMe/cpp/ycm/
